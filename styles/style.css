@@ -1,0 +1,26 @@
+.form, .list{
+    display: block;
+    border: 1px solid red;
+}
+
+.list__task {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+
+}
+
+.NewTask {
+    display: flex;
+    height: fit-content;
+    border: 1px solid green;
+    margin-bottom: 1%;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.none {
+
+    color: blueviolet;
+
+}
